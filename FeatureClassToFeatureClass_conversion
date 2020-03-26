@@ -1,0 +1,179 @@
+import arcpy
+arcpy.env.overwriteOutput=True
+arcpy.env.workspace="D:/chengdu_terrain_alldata/geodata/personal.gdb"
+inFeatures="D:/chengdu_terrain_alldata/document1_lowversion/170-222and178-218.dwg/Polyline"
+outlocation= "D:/chengdu_terrain_alldata/geodata/personal.gdb"
+outFeatureclass="again1"
+expression="Layer='地貌'and Entity='LWPolyline'and Elevation in (100, 110, 120, 130, 140, 150, 160, 170, 180, 190, 200, 210, 220, 230, 240, 250, 260, 270, 280, 290, 300, 310, 320, 330, 340, 350, 360, 370, 380, 390, 400, 410, 420, 430, 440, 450, 460, 470, 480, 490, 500, 510, 520, 530, 540, 550, 560, 570, 580, 590, 600, 610, 620, 630, 640, 650, 660, 670, 680, 690, 700, 710, 720, 730, 740, 750, 760, 770, 780, 790, 800, 810, 820, 830, 840, 850, 860, 870, 880, 890, 900, 910, 920, 930, 940, 950, 960, 970, 980, 990)"
+arcpy.FeatureClassToFeatureClass_conversion(inFeatures,outlocation,outFeatureclass,expression)
+
+import arcpy
+arcpy.env.overwriteOutput=True
+arcpy.env.workspace="D:/chengdu_terrain_alldata/geodata/personal.gdb"
+inFeatures="D:/chengdu_terrain_alldata/document1_lowversion/178-218and182-222.dwg/Polyline"
+outlocation= "D:/chengdu_terrain_alldata/geodata/personal.gdb"
+outFeatureclass="again2"
+expression="Layer='地貌'and Entity='LWPolyline'and Elevation in (100, 110, 120, 130, 140, 150, 160, 170, 180, 190, 200, 210, 220, 230, 240, 250, 260, 270, 280, 290, 300, 310, 320, 330, 340, 350, 360, 370, 380, 390, 400, 410, 420, 430, 440, 450, 460, 470, 480, 490, 500, 510, 520, 530, 540, 550, 560, 570, 580, 590, 600, 610, 620, 630, 640, 650, 660, 670, 680, 690, 700, 710, 720, 730, 740, 750, 760, 770, 780, 790, 800, 810, 820, 830, 840, 850, 860, 870, 880, 890, 900, 910, 920, 930, 940, 950, 960, 970, 980, 990)"
+arcpy.FeatureClassToFeatureClass_conversion(inFeatures,outlocation,outFeatureclass,expression)
+
+import arcpy
+arcpy.env.overwriteOutput=True
+arcpy.env.workspace="D:/chengdu_terrain_alldata/geodata/personal.gdb"
+inFeatures="D:/chengdu_terrain_alldata/document1_lowversion/182-222and186-216.dwg/Polyline"
+outlocation= "D:/chengdu_terrain_alldata/geodata/personal.gdb"
+outFeatureclass="again3"
+expression="Layer='地貌'and Entity='LWPolyline'and Elevation in (100, 110, 120, 130, 140, 150, 160, 170, 180, 190, 200, 210, 220, 230, 240, 250, 260, 270, 280, 290, 300, 310, 320, 330, 340, 350, 360, 370, 380, 390, 400, 410, 420, 430, 440, 450, 460, 470, 480, 490, 500, 510, 520, 530, 540, 550, 560, 570, 580, 590, 600, 610, 620, 630, 640, 650, 660, 670, 680, 690, 700, 710, 720, 730, 740, 750, 760, 770, 780, 790, 800, 810, 820, 830, 840, 850, 860, 870, 880, 890, 900, 910, 920, 930, 940, 950, 960, 970, 980, 990)"
+arcpy.FeatureClassToFeatureClass_conversion(inFeatures,outlocation,outFeatureclass,expression)
+
+import arcpy
+arcpy.env.overwriteOutput=True
+arcpy.env.workspace="D:/chengdu_terrain_alldata/geodata/personal.gdb"
+inFeatures="D:/chengdu_terrain_alldata/document1_lowversion/186-218and190-210.dwg/Polyline"
+outlocation= "D:/chengdu_terrain_alldata/geodata/personal.gdb"
+outFeatureclass="again4"
+expression="Layer='地貌'and Entity='LWPolyline'and Elevation in (100, 110, 120, 130, 140, 150, 160, 170, 180, 190, 200, 210, 220, 230, 240, 250, 260, 270, 280, 290, 300, 310, 320, 330, 340, 350, 360, 370, 380, 390, 400, 410, 420, 430, 440, 450, 460, 470, 480, 490, 500, 510, 520, 530, 540, 550, 560, 570, 580, 590, 600, 610, 620, 630, 640, 650, 660, 670, 680, 690, 700, 710, 720, 730, 740, 750, 760, 770, 780, 790, 800, 810, 820, 830, 840, 850, 860, 870, 880, 890, 900, 910, 920, 930, 940, 950, 960, 970, 980, 990)"
+arcpy.FeatureClassToFeatureClass_conversion(inFeatures,outlocation,outFeatureclass,expression)
+
+import arcpy
+arcpy.env.overwriteOutput=True
+arcpy.env.workspace="D:/chengdu_terrain_alldata/geodata/personal.gdb"
+inFeatures="D:/chengdu_terrain_alldata/document1_lowversion/190-210and192-228.dwg/Polyline"
+outlocation= "D:/chengdu_terrain_alldata/geodata/personal.gdb"
+outFeatureclass="again5"
+expression="Layer='地貌'and Entity='LWPolyline'and Elevation in (100, 110, 120, 130, 140, 150, 160, 170, 180, 190, 200, 210, 220, 230, 240, 250, 260, 270, 280, 290, 300, 310, 320, 330, 340, 350, 360, 370, 380, 390, 400, 410, 420, 430, 440, 450, 460, 470, 480, 490, 500, 510, 520, 530, 540, 550, 560, 570, 580, 590, 600, 610, 620, 630, 640, 650, 660, 670, 680, 690, 700, 710, 720, 730, 740, 750, 760, 770, 780, 790, 800, 810, 820, 830, 840, 850, 860, 870, 880, 890, 900, 910, 920, 930, 940, 950, 960, 970, 980, 990)"
+arcpy.FeatureClassToFeatureClass_conversion(inFeatures,outlocation,outFeatureclass,expression)
+
+import arcpy
+arcpy.env.overwriteOutput=True
+arcpy.env.workspace="D:/chengdu_terrain_alldata/geodata/personal.gdb"
+inFeatures="D:/chengdu_terrain_alldata/document1_lowversion/192-230and196-210.dwg/Polyline"
+outlocation= "D:/chengdu_terrain_alldata/geodata/personal.gdb"
+outFeatureclass="again6"
+expression="Layer='地貌'and Entity='LWPolyline'and Elevation in (100, 110, 120, 130, 140, 150, 160, 170, 180, 190, 200, 210, 220, 230, 240, 250, 260, 270, 280, 290, 300, 310, 320, 330, 340, 350, 360, 370, 380, 390, 400, 410, 420, 430, 440, 450, 460, 470, 480, 490, 500, 510, 520, 530, 540, 550, 560, 570, 580, 590, 600, 610, 620, 630, 640, 650, 660, 670, 680, 690, 700, 710, 720, 730, 740, 750, 760, 770, 780, 790, 800, 810, 820, 830, 840, 850, 860, 870, 880, 890, 900, 910, 920, 930, 940, 950, 960, 970, 980, 990)"
+arcpy.FeatureClassToFeatureClass_conversion(inFeatures,outlocation,outFeatureclass,expression)
+
+import arcpy
+arcpy.env.overwriteOutput=True
+arcpy.env.workspace="D:/chengdu_terrain_alldata/geodata/personal.gdb"
+inFeatures="D:/chengdu_terrain_alldata/document1_lowversion/198-226and200-230.dwg/Polyline"
+outlocation= "D:/chengdu_terrain_alldata/geodata/personal.gdb"
+outFeatureclass="again7"
+expression="Layer='地貌'and Entity='LWPolyline'and Elevation in (100, 110, 120, 130, 140, 150, 160, 170, 180, 190, 200, 210, 220, 230, 240, 250, 260, 270, 280, 290, 300, 310, 320, 330, 340, 350, 360, 370, 380, 390, 400, 410, 420, 430, 440, 450, 460, 470, 480, 490, 500, 510, 520, 530, 540, 550, 560, 570, 580, 590, 600, 610, 620, 630, 640, 650, 660, 670, 680, 690, 700, 710, 720, 730, 740, 750, 760, 770, 780, 790, 800, 810, 820, 830, 840, 850, 860, 870, 880, 890, 900, 910, 920, 930, 940, 950, 960, 970, 980, 990)"
+arcpy.FeatureClassToFeatureClass_conversion(inFeatures,outlocation,outFeatureclass,expression)
+
+import arcpy
+arcpy.env.overwriteOutput=True
+arcpy.env.workspace="D:/chengdu_terrain_alldata/geodata/personal.gdb"
+inFeatures="D:/chengdu_terrain_alldata/document1_lowversion/200-230and202-224.dwg/Polyline"
+outlocation= "D:/chengdu_terrain_alldata/geodata/personal.gdb"
+outFeatureclass="again8"
+expression="Layer='地貌'and Entity='LWPolyline'and Elevation in (100, 110, 120, 130, 140, 150, 160, 170, 180, 190, 200, 210, 220, 230, 240, 250, 260, 270, 280, 290, 300, 310, 320, 330, 340, 350, 360, 370, 380, 390, 400, 410, 420, 430, 440, 450, 460, 470, 480, 490, 500, 510, 520, 530, 540, 550, 560, 570, 580, 590, 600, 610, 620, 630, 640, 650, 660, 670, 680, 690, 700, 710, 720, 730, 740, 750, 760, 770, 780, 790, 800, 810, 820, 830, 840, 850, 860, 870, 880, 890, 900, 910, 920, 930, 940, 950, 960, 970, 980, 990)"
+arcpy.FeatureClassToFeatureClass_conversion(inFeatures,outlocation,outFeatureclass,expression)
+
+import arcpy
+arcpy.env.overwriteOutput=True
+arcpy.env.workspace="D:/chengdu_terrain_alldata/geodata/personal.gdb"
+inFeatures="D:/chengdu_terrain_alldata/document1_lowversion/202-224and204-214.dwg/Polyline"
+outlocation= "D:/chengdu_terrain_alldata/geodata/personal.gdb"
+outFeatureclass="again9"
+expression="Layer='地貌'and Entity='LWPolyline'and Elevation in (100, 110, 120, 130, 140, 150, 160, 170, 180, 190, 200, 210, 220, 230, 240, 250, 260, 270, 280, 290, 300, 310, 320, 330, 340, 350, 360, 370, 380, 390, 400, 410, 420, 430, 440, 450, 460, 470, 480, 490, 500, 510, 520, 530, 540, 550, 560, 570, 580, 590, 600, 610, 620, 630, 640, 650, 660, 670, 680, 690, 700, 710, 720, 730, 740, 750, 760, 770, 780, 790, 800, 810, 820, 830, 840, 850, 860, 870, 880, 890, 900, 910, 920, 930, 940, 950, 960, 970, 980, 990)"
+arcpy.FeatureClassToFeatureClass_conversion(inFeatures,outlocation,outFeatureclass,expression)
+
+import arcpy
+arcpy.env.overwriteOutput=True
+arcpy.env.workspace="D:/chengdu_terrain_alldata/geodata/personal.gdb"
+inFeatures="D:/chengdu_terrain_alldata/document1_lowversion/204-214and206-206.dwg/Polyline"
+outlocation= "D:/chengdu_terrain_alldata/geodata/personal.gdb"
+outFeatureclass="again10"
+expression="Layer='地貌'and Entity='LWPolyline'and Elevation in (100, 110, 120, 130, 140, 150, 160, 170, 180, 190, 200, 210, 220, 230, 240, 250, 260, 270, 280, 290, 300, 310, 320, 330, 340, 350, 360, 370, 380, 390, 400, 410, 420, 430, 440, 450, 460, 470, 480, 490, 500, 510, 520, 530, 540, 550, 560, 570, 580, 590, 600, 610, 620, 630, 640, 650, 660, 670, 680, 690, 700, 710, 720, 730, 740, 750, 760, 770, 780, 790, 800, 810, 820, 830, 840, 850, 860, 870, 880, 890, 900, 910, 920, 930, 940, 950, 960, 970, 980, 990)"
+arcpy.FeatureClassToFeatureClass_conversion(inFeatures,outlocation,outFeatureclass,expression)
+
+import arcpy
+arcpy.env.overwriteOutput=True
+arcpy.env.workspace="D:/chengdu_terrain_alldata/geodata/personal.gdb"
+inFeatures="D:/chengdu_terrain_alldata/document1_lowversion/206-208and208-200error.dwg/Polyline"
+outlocation= "D:/chengdu_terrain_alldata/geodata/personal.gdb"
+outFeatureclass="again11"
+expression="Layer='地貌'and Entity='LWPolyline'and Elevation in (100, 110, 120, 130, 140, 150, 160, 170, 180, 190, 200, 210, 220, 230, 240, 250, 260, 270, 280, 290, 300, 310, 320, 330, 340, 350, 360, 370, 380, 390, 400, 410, 420, 430, 440, 450, 460, 470, 480, 490, 500, 510, 520, 530, 540, 550, 560, 570, 580, 590, 600, 610, 620, 630, 640, 650, 660, 670, 680, 690, 700, 710, 720, 730, 740, 750, 760, 770, 780, 790, 800, 810, 820, 830, 840, 850, 860, 870, 880, 890, 900, 910, 920, 930, 940, 950, 960, 970, 980, 990)"
+arcpy.FeatureClassToFeatureClass_conversion(inFeatures,outlocation,outFeatureclass,expression)
+
+import arcpy
+arcpy.env.overwriteOutput=True
+arcpy.env.workspace="D:/chengdu_terrain_alldata/geodata/personal.gdb"
+inFeatures="D:/chengdu_terrain_alldata/document1_lowversion/208-200and208-250.dwg/Polyline"
+outlocation= "D:/chengdu_terrain_alldata/geodata/personal.gdb"
+outFeatureclass="again12"
+expression="Layer='地貌'and Entity='LWPolyline'and Elevation in (100, 110, 120, 130, 140, 150, 160, 170, 180, 190, 200, 210, 220, 230, 240, 250, 260, 270, 280, 290, 300, 310, 320, 330, 340, 350, 360, 370, 380, 390, 400, 410, 420, 430, 440, 450, 460, 470, 480, 490, 500, 510, 520, 530, 540, 550, 560, 570, 580, 590, 600, 610, 620, 630, 640, 650, 660, 670, 680, 690, 700, 710, 720, 730, 740, 750, 760, 770, 780, 790, 800, 810, 820, 830, 840, 850, 860, 870, 880, 890, 900, 910, 920, 930, 940, 950, 960, 970, 980, 990)"
+arcpy.FeatureClassToFeatureClass_conversion(inFeatures,outlocation,outFeatureclass,expression)
+
+import arcpy
+arcpy.env.overwriteOutput=True
+arcpy.env.workspace="D:/chengdu_terrain_alldata/geodata/personal.gdb"
+inFeatures="D:/chengdu_terrain_alldata/document1_lowversion/208-250and210-242error.dwg/Polyline"
+outlocation= "D:/chengdu_terrain_alldata/geodata/personal.gdb"
+outFeatureclass="again13"
+expression="Layer='地貌'and Entity='LWPolyline'and Elevation in (100, 110, 120, 130, 140, 150, 160, 170, 180, 190, 200, 210, 220, 230, 240, 250, 260, 270, 280, 290, 300, 310, 320, 330, 340, 350, 360, 370, 380, 390, 400, 410, 420, 430, 440, 450, 460, 470, 480, 490, 500, 510, 520, 530, 540, 550, 560, 570, 580, 590, 600, 610, 620, 630, 640, 650, 660, 670, 680, 690, 700, 710, 720, 730, 740, 750, 760, 770, 780, 790, 800, 810, 820, 830, 840, 850, 860, 870, 880, 890, 900, 910, 920, 930, 940, 950, 960, 970, 980, 990)"
+arcpy.FeatureClassToFeatureClass_conversion(inFeatures,outlocation,outFeatureclass,expression)
+
+import arcpy
+arcpy.env.overwriteOutput=True
+arcpy.env.workspace="D:/chengdu_terrain_alldata/geodata/personal.gdb"
+inFeatures="D:/chengdu_terrain_alldata/document1_lowversion/210-242and212-232.dwg/Polyline"
+outlocation= "D:/chengdu_terrain_alldata/geodata/personal.gdb"
+outFeatureclass="again14"
+expression="Layer='地貌'and Entity='LWPolyline'and Elevation in (100, 110, 120, 130, 140, 150, 160, 170, 180, 190, 200, 210, 220, 230, 240, 250, 260, 270, 280, 290, 300, 310, 320, 330, 340, 350, 360, 370, 380, 390, 400, 410, 420, 430, 440, 450, 460, 470, 480, 490, 500, 510, 520, 530, 540, 550, 560, 570, 580, 590, 600, 610, 620, 630, 640, 650, 660, 670, 680, 690, 700, 710, 720, 730, 740, 750, 760, 770, 780, 790, 800, 810, 820, 830, 840, 850, 860, 870, 880, 890, 900, 910, 920, 930, 940, 950, 960, 970, 980, 990)"
+arcpy.FeatureClassToFeatureClass_conversion(inFeatures,outlocation,outFeatureclass,expression)
+
+import arcpy
+arcpy.env.overwriteOutput=True
+arcpy.env.workspace="D:/chengdu_terrain_alldata/geodata/personal.gdb"
+inFeatures="D:/chengdu_terrain_alldata/document1_lowversion/212-232and214-218.dwg/Polyline"
+outlocation= "D:/chengdu_terrain_alldata/geodata/personal.gdb"
+outFeatureclass="again15"
+expression="Layer='地貌'and Entity='LWPolyline'and Elevation in (100, 110, 120, 130, 140, 150, 160, 170, 180, 190, 200, 210, 220, 230, 240, 250, 260, 270, 280, 290, 300, 310, 320, 330, 340, 350, 360, 370, 380, 390, 400, 410, 420, 430, 440, 450, 460, 470, 480, 490, 500, 510, 520, 530, 540, 550, 560, 570, 580, 590, 600, 610, 620, 630, 640, 650, 660, 670, 680, 690, 700, 710, 720, 730, 740, 750, 760, 770, 780, 790, 800, 810, 820, 830, 840, 850, 860, 870, 880, 890, 900, 910, 920, 930, 940, 950, 960, 970, 980, 990)"
+arcpy.FeatureClassToFeatureClass_conversion(inFeatures,outlocation,outFeatureclass,expression)
+
+import arcpy
+arcpy.env.overwriteOutput=True
+arcpy.env.workspace="D:/chengdu_terrain_alldata/geodata/personal.gdb"
+inFeatures="D:/chengdu_terrain_alldata/document1_lowversion/214-182and216-202.dwg/Polyline"
+outlocation= "D:/chengdu_terrain_alldata/geodata/personal.gdb"
+outFeatureclass="again16"
+expression="Layer='地貌'and Entity='LWPolyline'and Elevation in (100, 110, 120, 130, 140, 150, 160, 170, 180, 190, 200, 210, 220, 230, 240, 250, 260, 270, 280, 290, 300, 310, 320, 330, 340, 350, 360, 370, 380, 390, 400, 410, 420, 430, 440, 450, 460, 470, 480, 490, 500, 510, 520, 530, 540, 550, 560, 570, 580, 590, 600, 610, 620, 630, 640, 650, 660, 670, 680, 690, 700, 710, 720, 730, 740, 750, 760, 770, 780, 790, 800, 810, 820, 830, 840, 850, 860, 870, 880, 890, 900, 910, 920, 930, 940, 950, 960, 970, 980, 990)"
+arcpy.FeatureClassToFeatureClass_conversion(inFeatures,outlocation,outFeatureclass,expression)
+
+import arcpy
+arcpy.env.overwriteOutput=True
+arcpy.env.workspace="D:/chengdu_terrain_alldata/geodata/personal.gdb"
+inFeatures="D:/chengdu_terrain_alldata/document1_lowversion/216-202and216-252.dwg/Polyline"
+outlocation= "D:/chengdu_terrain_alldata/geodata/personal.gdb"
+outFeatureclass="again17"
+expression="Layer='地貌'and Entity='LWPolyline'and Elevation in (100, 110, 120, 130, 140, 150, 160, 170, 180, 190, 200, 210, 220, 230, 240, 250, 260, 270, 280, 290, 300, 310, 320, 330, 340, 350, 360, 370, 380, 390, 400, 410, 420, 430, 440, 450, 460, 470, 480, 490, 500, 510, 520, 530, 540, 550, 560, 570, 580, 590, 600, 610, 620, 630, 640, 650, 660, 670, 680, 690, 700, 710, 720, 730, 740, 750, 760, 770, 780, 790, 800, 810, 820, 830, 840, 850, 860, 870, 880, 890, 900, 910, 920, 930, 940, 950, 960, 970, 980, 990)"
+arcpy.FeatureClassToFeatureClass_conversion(inFeatures,outlocation,outFeatureclass,expression)
+
+import arcpy
+arcpy.env.overwriteOutput=True
+arcpy.env.workspace="D:/chengdu_terrain_alldata/geodata/personal.gdb"
+inFeatures="D:/chengdu_terrain_alldata/document1_lowversion/218-236and220-216.dwg/Polyline"
+outlocation= "D:/chengdu_terrain_alldata/geodata/personal.gdb"
+outFeatureclass="again18"
+expression="Layer='地貌'and Entity='LWPolyline'and Elevation in (100, 110, 120, 130, 140, 150, 160, 170, 180, 190, 200, 210, 220, 230, 240, 250, 260, 270, 280, 290, 300, 310, 320, 330, 340, 350, 360, 370, 380, 390, 400, 410, 420, 430, 440, 450, 460, 470, 480, 490, 500, 510, 520, 530, 540, 550, 560, 570, 580, 590, 600, 610, 620, 630, 640, 650, 660, 670, 680, 690, 700, 710, 720, 730, 740, 750, 760, 770, 780, 790, 800, 810, 820, 830, 840, 850, 860, 870, 880, 890, 900, 910, 920, 930, 940, 950, 960, 970, 980, 990)"
+arcpy.FeatureClassToFeatureClass_conversion(inFeatures,outlocation,outFeatureclass,expression)
+
+import arcpy
+arcpy.env.overwriteOutput=True
+arcpy.env.workspace="D:/chengdu_terrain_alldata/geodata/personal.gdb"
+inFeatures="D:/chengdu_terrain_alldata/document1_lowversion/220-216and220-194.dwg/Polyline"
+outlocation= "D:/chengdu_terrain_alldata/geodata/personal.gdb"
+outFeatureclass="again19"
+expression="Layer='地貌'and Entity='LWPolyline'and Elevation in (100, 110, 120, 130, 140, 150, 160, 170, 180, 190, 200, 210, 220, 230, 240, 250, 260, 270, 280, 290, 300, 310, 320, 330, 340, 350, 360, 370, 380, 390, 400, 410, 420, 430, 440, 450, 460, 470, 480, 490, 500, 510, 520, 530, 540, 550, 560, 570, 580, 590, 600, 610, 620, 630, 640, 650, 660, 670, 680, 690, 700, 710, 720, 730, 740, 750, 760, 770, 780, 790, 800, 810, 820, 830, 840, 850, 860, 870, 880, 890, 900, 910, 920, 930, 940, 950, 960, 970, 980, 990)"
+arcpy.FeatureClassToFeatureClass_conversion(inFeatures,outlocation,outFeatureclass,expression)
+
+import arcpy
+arcpy.env.overwriteOutput=True
+arcpy.env.workspace="D:/chengdu_terrain_alldata/geodata/personal.gdb"
+inFeatures="D:/chengdu_terrain_alldata/document1_lowversion/222-196and222-204.dwg/Polyline"
+outlocation= "D:/chengdu_terrain_alldata/geodata/personal.gdb"
+outFeatureclass="again20"
+expression="Layer='地貌'and Entity='LWPolyline'and Elevation in (100, 110, 120, 130, 140, 150, 160, 170, 180, 190, 200, 210, 220, 230, 240, 250, 260, 270, 280, 290, 300, 310, 320, 330, 340, 350, 360, 370, 380, 390, 400, 410, 420, 430, 440, 450, 460, 470, 480, 490, 500, 510, 520, 530, 540, 550, 560, 570, 580, 590, 600, 610, 620, 630, 640, 650, 660, 670, 680, 690, 700, 710, 720, 730, 740, 750, 760, 770, 780, 790, 800, 810, 820, 830, 840, 850, 860, 870, 880, 890, 900, 910, 920, 930, 940, 950, 960, 970, 980, 990)"
+arcpy.FeatureClassToFeatureClass_conversion(inFeatures,outlocation,outFeatureclass,expression)
